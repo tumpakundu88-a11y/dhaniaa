@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dhania_client",
+  "version": "${version}",
+  "name": "Dhania Client",
+  "description": "Green-themed PvP client: HUD modules, in-game mod menu, waypoints.",
+  "authors": ["Dhania"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.dhania.DhaniaClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
